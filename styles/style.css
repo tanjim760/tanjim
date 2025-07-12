@@ -61,12 +61,14 @@ small strong:hover{
 /* Header & Hero Section Styles */
 
 header {
-    background-image: url("../assets/hero_bg.png");
+    /* background-image: url("../assets/hero_bg.png"); */
+    background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1920px;
-    height: 1022px;
+    height: 700px;
     margin: 0 auto;
+    margin-bottom: 100px;
     padding-top: 30px;
     padding-left: 70px;
     padding-right: 70px;
@@ -96,6 +98,7 @@ nav a {
 .hero-title {
     font-size: 40px;
     font-weight: bold;
+    color: white;
 }
 
 .hero-container {
